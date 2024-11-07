@@ -44,7 +44,7 @@ img {
   text-decoration: none;
   margin-right: 76px;
 }
-.top-line .container .header-container{
+.container.header-container{
   display: flex;
   justify-content: space-between;
 }
