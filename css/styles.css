@@ -77,6 +77,17 @@ img {
 .con-link li a:last-child {
   margin-right: 0;
 }
+
+.menu.is-active .menu-nav:hover::before {
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  left: 0; bottom: -24px;
+  content: "";
+  position: absolute;
+  background: #404bbf;
+  margin-bottom: 0;
+}
 .con-link li a {
   color: #434455;
   font-family: 'Roboto', sans-serif;
@@ -92,6 +103,7 @@ img {
 .con-link li a:hover,
 .con-link li a:focus {
   color: #404bbf;
+  position: relative;
 }
 .descr {
   display: flex;
