@@ -313,12 +313,13 @@ img {
   list-style: none;
   padding: 24px 100px;
 }
-.icon-list .icon {
+.icon {
   margin-bottom: 0;
   align-items: center;
   justify-content: center;
-  fill: #2e2f42;
+  fill: #f4f4fd;
 }
+
 .social-list {
   display: flex;
   align-items: center;
@@ -346,9 +347,7 @@ img {
   background-color: #4d5ae5;
 }
 
-.social-list .icon {
-  fill: #f4f4fd;
-}
+
 /* .social {
   display: inline;
   justify-content: center;
