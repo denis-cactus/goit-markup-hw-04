@@ -108,7 +108,10 @@ img {
 .con-link li a:focus {
   color: #404bbf;
 }
-
+.menu-nav a:active::after {
+  background-color: #404bbf;
+  color: #404bbf;
+}
 .menu-nav-link::after {
   border-radius: 2px;
   width: 100%;
@@ -117,10 +120,8 @@ img {
   bottom: -1px;
   content: '';
   position: absolute;
-  background-color: #404bbf;
-  color: #404bbf;
-}
 
+}
 .descr {
   display: flex;
   margin-bottom: 0;
