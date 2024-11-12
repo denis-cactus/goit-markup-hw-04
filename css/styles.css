@@ -109,7 +109,7 @@ img {
   color: #404bbf;
 }
 
-.menu-nav-link::after {
+.menu-nav-link:active::after {
   border-radius: 2px;
   width: 100%;
   height: 4px;
