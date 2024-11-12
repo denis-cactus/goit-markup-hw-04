@@ -118,10 +118,10 @@ position: relative;
   bottom: -1px;
   content: '';
   position: absolute;
+  color: #404bbf; 
 } 
 .menu-nav-link:hover::after {
-  color: #404bbf; 
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 .descr {
   display: flex;
