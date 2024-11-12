@@ -84,6 +84,7 @@ img {
 }
 .menu-nav:first-child {
   position: relative;
+  color: #404bbf;
 }
 .menu-nav:not(:last-child),
 .con-link li:first-child {
@@ -111,9 +112,8 @@ img {
 .con-link li a:focus {
   color: #404bbf;
 }
-.menu-nav-link:active::after {
+.menu-nav-link::after {
   background-color: #404bbf;
-  color: #404bbf;
 }
 .menu li a:first-child::after {
   border-radius: 2px;
