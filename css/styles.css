@@ -118,7 +118,7 @@ img {
   content: '';
   position: absolute;
 }
-.menu-nav a:hover::after {
+.menu-nav-link:active::after {
   background-color: #404bbf;
   color: #404bbf;
 }
