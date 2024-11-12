@@ -118,9 +118,11 @@ position: relative;
   bottom: -1px;
   content: '';
   position: absolute;
+} 
+.menu-nav-link:hover::after {
   color: #404bbf; 
   background-color: #4d5ae5;
-} 
+}
 .descr {
   display: flex;
   margin-bottom: 0;
